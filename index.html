@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Webポートフォリオ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>My Portfolio</h1>
+  <div class="menu-btn" id="menuBtn">☰</div>
+  <nav id="nav">
+    <a href="#apps">Apps</a>
+    <a href="https://github.com/yuito16515-beep" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </nav>
+</header>
+
+<section class="intro">
+  <h2>制作物ポートフォリオ</h2>
+  <p>HTML / CSS / JavaScript を用いて制作したWebアプリです。</p>
+</section>
+
+<section class="apps" id="apps">
+
+  <div class="card">
+    <h3>📅 スケジュール管理アプリ</h3>
+    <p>予定の追加・編集・削除ができるCRUDアプリ</p>
+    <a href="https://yuito16515-beep.github.io/schedule-app/" target="_blank" rel="noopener noreferrer">アプリを見る</a>
+  </div>
+
+  <div class="card">
+    <h3>📝 メモ検索アプリ</h3>
+    <p>検索・並び替え・編集ができるメモ管理アプリ</p>
+    <a href="https://yuito16515-beep.github.io/memo-app/" target="_blank" rel="noopener noreferrer">アプリを見る</a>
+  </div>
+
+  <div class="card">
+    <h3>💰 家計簿アプリ</h3>
+    <p>収支管理・月別フィルター付き家計簿アプリ</p>
+    <a href="https://yuito16515-beep.github.io/kakeibo-app/" target="_blank" rel="noopener noreferrer">アプリを見る</a>
+  </div>
+
+  <div class="card">
+  <h3>Digsmile 模写コーディング</h3>
+  <p>既存サイトを元に、HTML/CSSで忠実に再現しました。</p>
+  <a href="https://yuito16515-beep.github.io/digsmile-mosha/" target="_blank" rel="noopener noreferrer">サイトを見る</a>
+</div>
+
+</section>
+
+<script>
+const btn = document.getElementById("menuBtn");
+const nav = document.getElementById("nav");
+
+btn.onclick = () => {
+  nav.classList.toggle("show");
+};
+</script>
+
+</body>
+</html>
