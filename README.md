@@ -34,6 +34,6 @@ HTML
 CSS（Flexbox / レスポンシブ）
 JavaScript
 localStorage
-GitHub
 
+GitHub
 https://github.com/yuito16515-beep
